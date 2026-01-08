@@ -94,12 +94,14 @@ nav ul li{
 }
 #myProgressBar{
     width: 80vw;
+    cursor:pointer;
 }
 .songInfo{
     position:absolute;
+    font-family: 'Varela Round', sans-serif;
     left:10vw;
 }
 .songInfo img{
-    opacity:0;
-    transition: opacity 1s ease-in;
+    opacity:0;     /*java script  se 1 kr denge */
+    transition: opacity 0.4s ease-in;
 }
